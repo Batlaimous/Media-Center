@@ -1,0 +1,274 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;list-style: none;
+}
+
+header{
+        width: 100%;
+        height: 800px;
+        background: url(../images/slider.jpg)no-repeat;
+        background-size: cover;   
+}
+
+#topheader{
+    width: 100%;
+    margin: auto;
+    height: 80px;
+    background: rgb(90, 90, 90);
+    position:fixed;
+    z-index: 99;
+    box-shadow: 0 4px 8px 0 rgba(255, 123, 0, 0.671), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+    padding-top: 10px;
+    display: inline-block;
+}
+
+#topheader img{
+    width: auto;
+    margin: 10px auto;
+    margin-left: 40px;
+}
+
+nav {
+    width: 700px;
+    height: 10px;
+    float: right;
+    padding-top: 20px;
+    margin-right: 60px;
+}
+
+nav a {
+    width: 150px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    border-right: 1px solid whitesmoke;
+}
+
+#facebook{ 
+    width: 13%;
+    height: 50px;
+    background: blue;
+    position: fixed;
+    top:150px;
+    left: -190px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    z-index: 9999;
+}
+
+#facebook img{
+    width: 30px;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+}
+
+#facebook:hover{
+    left: 0px;
+}
+
+#twitter{
+    width: 13%;
+    height: 50px;
+    background: rgb(0, 183, 255);
+    position: fixed;
+    top:210px;
+    left: -190px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    z-index: 9999;
+}
+
+#twitter img{
+    width: 30px;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+}
+
+#twitter:hover{
+    left: 0px;
+}
+
+#youtube{
+    width: 13%;
+    height: 50px;
+    background: rgb(192, 22, 22);
+    position: fixed;
+    top:270px;
+    left: -190px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    z-index: 9999;
+}
+
+#youtube img{
+    width: 30px;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+}
+
+#youtube:hover{
+    left: 0px;
+}
+
+#whatsapp{
+    width: 13%;
+    height: 50px;
+    background: rgb(46, 212, 24);
+    position: fixed;
+    top:330px;
+    left: -190px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    z-index: 9999;
+}
+
+#whatsapp img{
+    width: 30px;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+}
+
+#whatsapp:hover{
+    left: 0px;
+}
+
+#visitus h6{
+    font-size: large;
+    color: white;
+    width: 170px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 30px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    
+}
+
+
+
+
+
+#latestnews{    
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    overflow: hidden;
+    margin: 5px auto;
+    padding-top: 40px;
+    background: gray;
+}
+.title{
+    width: 100%;
+    height: 70px;
+    background: blue;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20pt;
+}
+
+#news1 .title{
+    background: red;
+}
+
+#news2 .title{
+    background: yellowgreen;
+}
+
+.content{
+    width: 100%;
+    height: 160px;
+    text-align: left;
+    padding-top: 70px;
+    background: whitesmoke;
+}
+
+.newsblock{
+    display: inline-block;
+    width: 30%;
+    margin:10px;
+    margin-left: 40px;
+
+}
+
+.newsblock h3,p{
+    text-align: center;
+}
+
+
+
+#prefooter{
+    width: 100%;
+    height: 300px;
+    background: rgb(90, 90, 90) ;
+}
+
+#footerp{
+    width: 70%;
+    height: 300px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding:2% 0% 0% 10%;
+    color: white;
+   
+}
+
+#copyrights{
+    height: 50px;
+    background-color: rgb(0, 0, 5);
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 14pt;
+}
+footer marquee{
+   color: blanchedalmond; 
+}
